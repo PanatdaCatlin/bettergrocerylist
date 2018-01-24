@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>grocery-list</title>
+</head>
+<body>
+  <div class="container">
+    <h1>My list of things to buy:</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Fill out the form below to make a grocery list!</h4>
+        <form id="groceryForm">
+          <div class="form-group">
+            <label for="itemInput">Item</label>
+            <input type="text" class="form-control" id="userInputItem">
+          </div>
+            <div class="form-group">
+              <label for="inputAmount">Amount</label>
+              <input type="text" class="form-control" id="userInputAmount">
+            </div>
+              <div class="form-group">
+                <label for="storeInput">Store</label>
+                <input type="text" class="form-control" id="userInputStore">
+              </div>
+              <button type="submit" class="btn">Add</button>
+            </form>
+
+            <h2>Your personalized grocery list:</h2>
+            <ul id="groceryList">
+
+            </ul>
+          </div>
+        </body>
+        </html>
